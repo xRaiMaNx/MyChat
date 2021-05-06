@@ -9,6 +9,6 @@ My practice Java project
 2) Exceptions
 3) JavaFx ( Написал простенькую анимацию, проектировал в Scene Builder и вручную иногда добавлял стили, обрабатывал различные поля, кнопки )
 4) Networking ( Поработал с сокетами )
-5) DataBase ( в моем случае Postgresql )
+5) DataBase ( в моем случае Postgresql, залил к базе dump )
 6) Немножко использовал data structures
 7) ООП
