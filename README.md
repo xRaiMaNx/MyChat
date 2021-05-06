@@ -12,3 +12,5 @@ My practice Java project
 5) DataBase ( в моем случае Postgresql, залил к базе dump )
 6) Немножко использовал data structures
 7) ООП
+
+P.S. chat.png, reg.png, log.png скриншоты самого чата
