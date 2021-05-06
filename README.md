@@ -6,12 +6,12 @@ My practice project in Java
 
 Вот что использовал в этом проекте:
 1) Multithreading
-3) Exceptions
-4) JavaFx
+2) Exceptions
+3) JavaFx
   3.1) Написал простенькую анимацию
   3.2) Проектировал в Scene Builder и вручную иногда добавлял стили
   3.3) Обрабатывал различные поля, кнопки
-5) Networking ( Поработал с сокетами )
-6) DataBase ( в моем случае Postgresql )
-7) Немножко использовал data structures
-8) ООП
+4) Networking ( Поработал с сокетами )
+5) DataBase ( в моем случае Postgresql )
+6) Немножко использовал data structures
+7) ООП
