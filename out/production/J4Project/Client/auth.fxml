@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="871.0" prefWidth="900.0" style="-fx-background-color: #fafafa; -fx-background-radius: 20; -fx-border-radius: 20;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Client.ClientAppController">
+   <children>
+      <ImageView fitHeight="889.0" fitWidth="1675.0" layoutX="-421.0" layoutY="-9.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/im2.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="175.0" layoutY="148.0" prefHeight="577.0" prefWidth="548.0" style="-fx-background-color: #fafafa; -fx-background-radius: 20;">
+         <children>
+            <TextField fx:id="loginField" layoutX="155.0" layoutY="176.0" prefHeight="40.0" prefWidth="240.0" promptText="login" style="-fx-background-color: #FFFFFF; -fx-border-color: #D7D9DE; -fx-background-radius: 20; -fx-border-radius: 20;">
+               <font>
+                  <Font name="Verdana" size="14.0" />
+               </font>
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+            </TextField>
+            <PasswordField fx:id="passwordField" layoutX="155.0" layoutY="230.0" prefHeight="40.0" prefWidth="240.0" promptText="password" style="-fx-background-color: #ffffff; -fx-background-radius: 20; -fx-border-color: #D7D9DE; -fx-border-radius: 20;">
+               <font>
+                  <Font name="Verdana" size="14.0" />
+               </font>
+               <padding>
+                  <Insets left="20.0" />
+               </padding>
+            </PasswordField>
+            <Button fx:id="authSignInButton" layoutX="155.0" layoutY="282.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="240.0" style="-fx-background-color: #2ac065; -fx-background-radius: 20;" text="LOG IN" textFill="WHITE">
+               <font>
+                  <Font name="Verdana" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="signUpButton" layoutX="154.0" layoutY="356.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="240.0" style="-fx-background-color: #fafafa; -fx-background-radius: 20; -fx-border-color: #000000; -fx-border-radius: 20;" text="SIGN UP">
+               <font>
+                  <Font name="Verdana" size="14.0" />
+               </font>
+            </Button>
+            <Label fx:id="systemAlert" alignment="CENTER" layoutX="155.0" layoutY="131.0" prefHeight="30.0" prefWidth="240.0" textAlignment="CENTER" textFill="#ff0f0f" />
+            <Line endX="100.0" layoutX="146.0" layoutY="341.0" startX="8.0" stroke="#d7d9de" />
+            <Line endX="100.0" layoutX="294.0" layoutY="341.0" startX="11.0" stroke="#d7d9de" />
+            <Text layoutX="262.0" layoutY="346.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OR">
+               <font>
+                  <Font name="Verdana" size="14.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="117.0" fitWidth="126.0" layoutX="14.0" layoutY="14.0">
+               <image>
+                  <Image url="@images/Group2.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="117.0" fitWidth="179.0" layoutX="32.0" layoutY="460.0">
+               <image>
+                  <Image url="@images/Group4.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="128.0" fitWidth="200.0" layoutX="340.0" layoutY="449.0">
+               <image>
+                  <Image url="@images/Group5.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="125.0" fitWidth="133.0" layoutX="417.0" layoutY="98.0">
+               <image>
+                  <Image url="@images/Group3.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
