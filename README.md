@@ -1,16 +1,13 @@
 # MyChat
 My practice Java project
 
-Этот проект несет исключительно учебную цель. 
-Я проходил курсы по Java на Geekbrains. В одной из домашек нужно было набросать простенький системный чат. Я эту идею развил, написал графический интерфейс на javaFx ( на курсе использовали исключительно swing ). На самом деле немножко "поигрался" с этим чатом и потом вернулся к C++, чтобы заняться спортивным программированием, т.к. информации под C++ побольше ( удобный cppreference, emaxx, на codeforces в основном пишут на C++, Python, да и курсы все преимущественно на C++, да и язык для алгоритмов мне проще давался ). Спустя пару лет, как поступил на 1ый курс, вернулся к этому чату. Вспомнил Java, которую проходил на Geekbrains.
-
-Вот что использовал в этом проекте:
+Technologies:
 1) Multithreading
 2) Exceptions
-3) JavaFx ( Написал простенькую анимацию, проектировал в Scene Builder и вручную иногда добавлял стили, обрабатывал различные поля, кнопки )
-4) Networking ( Поработал с сокетами )
-5) DataBase ( в моем случае Postgresql, залил к базе dump )
-6) Немножко использовал data structures
-7) ООП
+3) JavaFx ( Scene Builder )
+4) Networking ( Sockets )
+5) DataBase ( Postgresql )
+6) Data structures
+7) OOP
 
-P.S. chat.png, reg.png, log.png скриншоты самого чата
+P.S. chat.png, reg.png, log.png - screenshots of the interface of this chat
